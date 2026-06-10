@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — St. Joseph's Schola</title>
+  <meta name="description" content="Contact St. Joseph's Schola — address, phone, email, and a message form. Reach out to visit, apply, or support the school.">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="site-nav nav" aria-label="Primary">
+    <a class="brand" href="../index.html" aria-label="St. Joseph's Schola — home">
+      <span class="crest">SJ</span>
+      <span class="wordmark"><strong>St. Joseph's Schola</strong><span>Classical Catholic · Kansas</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li class="flagship"><a href="business.html">Business &amp; Enterprise</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="farm.html">Farm &amp; Land</a></li>
+      <li><a href="spiritual-life.html">Spiritual Life</a></li>
+      <li><a href="boarding-life.html">Boarding Life</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="admissions.html">Apply / Inquire</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="mobile-panel">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="business.html">Business &amp; Enterprise</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="farm.html">Farm &amp; Land</a></li>
+        <li><a href="spiritual-life.html">Spiritual Life</a></li>
+        <li><a href="boarding-life.html">Boarding Life</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="btn btn-primary" href="admissions.html">Apply / Inquire</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="img-ph" role="img" aria-label="The front gate and stone sign of the school against a Kansas sky">
+      <span>contact-school-gate.jpg</span>
+    </div>
+    <div class="container">
+      <p class="breadcrumb"><a href="../index.html">Home</a> · Contact</p>
+      <span class="eyebrow">Contact Us</span>
+      <h1>We would love to hear from you.</h1>
+      <p>Whether you are exploring admission, planning a visit, or hoping to support the mission, the door is open.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="split">
+        <div class="reveal">
+          <span class="eyebrow">Reach the School</span>
+          <h2>Get in touch</h2>
+          <ul class="info-list">
+            <li><span class="k">Address</span><span>[STREET ADDRESS]<br>[TOWN], Kansas [ZIP]</span></li>
+            <li><span class="k">Phone</span><span><a href="tel:[PHONE-DIGITS]">[PHONE]</a></span></li>
+            <li><span class="k">General</span><span><a href="mailto:[EMAIL]">[EMAIL]</a></span></li>
+            <li><span class="k">Admissions</span><span><a href="mailto:[ADMISSIONS EMAIL]">[ADMISSIONS EMAIL]</a></span></li>
+            <li><span class="k">Office Hours</span><span>[DAYS &amp; HOURS]</span></li>
+          </ul>
+          <div class="btn-row" style="margin-top:1.5rem;">
+            <a class="btn btn-primary" href="admissions.html#inquire">Admissions Inquiry</a>
+            <a class="btn btn-outline" href="admissions.html#visit">Schedule a Visit</a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="form-card">
+            <h3 class="mt-0">Send a Message</h3>
+            <form action="#contact-endpoint" method="post" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="c-name">Your Name</label>
+                  <input id="c-name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                  <label for="c-email">Email Address</label>
+                  <input id="c-email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="field">
+                  <label for="c-phone">Phone (optional)</label>
+                  <input id="c-phone" name="phone" type="tel" autocomplete="tel">
+                </div>
+                <div class="field">
+                  <label for="c-topic">Reason for Contact</label>
+                  <select id="c-topic" name="topic">
+                    <option value="" disabled selected>Select a topic</option>
+                    <option value="admissions">Admissions</option>
+                    <option value="visit">Scheduling a Visit</option>
+                    <option value="support">Supporting the School</option>
+                    <option value="general">General Question</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="c-message">Message</label>
+                  <textarea id="c-message" name="message" required></textarea>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+              <p class="form-note">Form posts to a placeholder endpoint (<code>#contact-endpoint</code>). Connect it to your mail handler before going live.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section-tight bg-cream">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Find Us</span>
+        <h2>On the Kansas prairie</h2>
+      </div>
+      <div class="img-ph wide map-ph reveal" role="img" aria-label="Map showing the location of St. Joseph's Schola in Kansas">
+        <span>[MAP EMBED] Replace this block with an embedded Google Map or static map image of the campus location.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-navy cta-band">
+    <div class="container narrow reveal">
+      <span class="eyebrow">Support the Mission</span>
+      <h2>Help us build something that lasts</h2>
+      <p>Your generosity builds the chapel, the farm, and the enterprise hall — and forms the young men who will carry this mission forward.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-gold" href="#contact-endpoint">Make a Gift</a>
+        <a class="btn btn-ghost-light" href="about.html">Learn About the Campaign</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <span class="crest footer-crest">SJ</span>
+          <span class="wordmark"><strong>St. Joseph's Schola</strong><span style="color:var(--gold-soft);">Classical Catholic · Kansas</span></span>
+        </div>
+        <p>A Roman Catholic boarding school forming young men in faith, classical learning, the land, and the confidence to build.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="business.html">Business &amp; Enterprise</a></li>
+          <li><a href="academics.html">Classical Academics</a></li>
+          <li><a href="farm.html">Farm &amp; Land</a></li>
+          <li><a href="spiritual-life.html">Spiritual Life</a></li>
+          <li><a href="boarding-life.html">Boarding Life</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Connect</h5>
+        <ul class="footer-links">
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="admissions.html#visit">Schedule a Visit</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Support the Campaign</a></li>
+        </ul>
+        <h5 style="margin-top:1.6rem;">Visit</h5>
+        <p style="font-size:0.88rem; line-height:1.6;">[STREET ADDRESS]<br>[TOWN], Kansas [ZIP]<br>[PHONE] · [EMAIL]</p>
+      </div>
+      <div>
+        <h5>The Schola Letter</h5>
+        <p style="font-size:0.88rem;">News from the farm, the chapel, and the classroom, a few times a year.</p>
+        <form class="news-form" action="#newsletter-endpoint" method="post">
+          <label for="news-email" class="skip-link">Email address</label>
+          <input id="news-email" type="email" name="email" placeholder="Your email" required>
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="identity-line">Ad maiorem Dei gloriam — for the greater glory of God.</span>
+      <span>&copy; <span data-year>2026</span> St. Joseph's Schola. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../css/site.js"></script>
+</body>
+</html>
